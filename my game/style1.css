@@ -1,0 +1,101 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+}
+.body{
+    margin: 0px;
+}
+.startScreen{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: rgba(255, 210, 61, 0.966);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: 100px;
+    border-radius: 30px;
+    border-style:inset;
+    border-color: rgb(243, 143, 12);
+    border-width: 4px;
+}
+
+.text1{
+    color: red;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+
+.text2{
+    color: rgb(8, 11, 163);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+.text3{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+
+.text4{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "chiller";
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 550px;
+}
+
+.easy{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "chiller";
+    font-weight: bold;
+    background-color: rgb(26, 175, 12);
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+
+.easy:hover{
+    transform: scale(1.1);
+}
+
+
+.hard{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "chiller";
+    font-weight: bold;
+    background-color: rgb(211, 3, 3);
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+
+.hard:hover{
+    transform: scale(1.1);
+}
+

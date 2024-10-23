@@ -1,0 +1,182 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("game-ground-texture-road-forest_107791-15433.avif");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+
+}
+
+.body{
+    margin: 0px;
+}
+
+.player{
+    position: absolute;
+    height: 250px;
+    margin-top: 310px;
+    margin-left: 100px;
+}
+
+.score{
+    position: absolute;
+    font-size: 80px;
+    font-family: "chiller";
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.block{
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    margin-top: 435px;
+    background-image: url("flame.gif");
+    background-size: cover;
+}
+
+.endScreen{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(4, 20, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 430px;
+    margin-top: 100px;
+    border-radius: 30px;
+    visibility: hidden;
+}
+
+.text1{
+    color: red;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+
+.text2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+
+.btn{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(26, 175, 12);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: "chiller";
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.main{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(233, 99, 10);
+    margin-block-start: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: "chiller";
+    font-weight: bold;
+    cursor: pointer;
+}
+.main:hover{
+    transform: scale(1.1);
+}
+
+.levelComplete{
+    position: absolute;
+    width: 98.5vw;
+    height: 350px;
+    background-color: rgb(4, 20, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 100px;
+    border-style:dashed;
+    border-radius: 0px;
+    border-color: yellow;
+    border-width: 10px;
+    visibility: hidden;
+    
+}
+
+.end1{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+
+.end2{
+    color: rgb(230, 247, 1);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+
+.end3{
+    color: rgb(251, 255, 3);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "chiller";
+}
+.hard1{
+    width: 350px;
+    height: 50px;
+    background-color: red;
+    margin-block-start: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "chiller";
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.hard1:hover{
+    transform: scale(1.1);
+}
+.hard2{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(255, 187, 0);
+    margin-block-start: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "chiller";
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.hard2:hover{
+    transform: scale(1.1);
+}
